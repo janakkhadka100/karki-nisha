@@ -3,18 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>निशा कार्किको वेबसाइट</title>
+  <title>निशा कार्किको टिकटोक ग्यालेरी</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>निशा कार्किको फोटो ग्यालेरी</h1>
-    <p>स्वागत छ मेरो वेबसाइटमा!</p>
+    <h1>🎥 निशा कार्किको TikTok ग्यालेरी</h1>
+    <p>फोटो र TikTok भिडियोहरू एकै ठाउँमा हेर्नुहोस्।</p>
   </header>
-  <main class="gallery">
-    <img src="images/photo1.jpg" alt="फोटो १">
-    <img src="images/photo2.jpg" alt="फोटो २">
-    <img src="images/photo3.jpg" alt="फोटो ३">
+  <main class="grid-gallery">
+    <div class="grid-item"><img src="images/photo1.jpg" alt="फोटो १"></div>
+    <div class="grid-item"><img src="images/photo2.jpg" alt="फोटो २"></div>
+    <div class="grid-item"><img src="images/photo3.jpg" alt="फोटो ३"></div>
+
+    <!-- TikTok Embed Video 1 -->
+    <div class="grid-item">
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@scout2015/video/6718335390845095173" data-video-id="6718335390845095173" style="max-width: 325px;min-width: 225px;" >
+        <section> </section>
+      </blockquote>
+    </div>
+
+    <!-- TikTok Embed Video 2 -->
+    <div class="grid-item">
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@billieeilish/video/6807491984882765061" data-video-id="6807491984882765061" style="max-width: 325px;min-width: 225px;">
+        <section> </section>
+      </blockquote>
+    </div>
+
+    <!-- TikTok script -->
+    <script async src="https://www.tiktok.com/embed.js"></script>
   </main>
 </body>
 </html>
